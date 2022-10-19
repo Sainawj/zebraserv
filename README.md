@@ -4,7 +4,7 @@ Even when you run - sudo koha-rebuild-zebra -f -v  library - you still can't get
 Restarting koha fixes the issue.
 
 This will fix the issue by checking zebraserv status the restarting it every time its off.
-Add this create a shell file as follows:
+Add this shell file as follows:
 sudo nano /usr/local/bin/check_zebra.sh
 Paste everything on check_zebra.sh file
 Save by  - clicking ctrl O and exit ctrl X
